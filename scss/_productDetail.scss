@@ -1,0 +1,23 @@
+.productDetail {
+    img {
+        margin-bottom: 30px;
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 16px;
+            width: 100%;
+        }
+    }
+    .dis {
+        @include media-breakpoint-down(lg) {
+            margin-bottom: 30px;
+        }
+    }
+    p {
+        margin-bottom: 12px;
+    }
+    .annoce {
+        margin-top: 80px;
+        p {
+            font-size: 1rem;
+        }
+    }
+}
